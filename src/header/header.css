@@ -1,0 +1,50 @@
+.hero-img {
+    position: relative;
+    background-image: url('hero\ img.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    text-align: center;
+}
+.hero-img .follow-us {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-500%);
+    writing-mode: vertical-rl;
+    font-size: 14px;
+}
+.hero-img .insta {
+    position: absolute;
+    top: 270%;
+    left: 1px;
+    transform: translateY(-500%);
+    writing-mode: vertical-rl;
+    font-size: 14px;
+}
+.hero-img .twiter{
+    position: absolute;
+    top: 320%;
+    left: 1px;
+    transform: translateY(-500%);
+    writing-mode: vertical-rl;
+    font-size: 14px;
+}
+.hero-img .text{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.hero-img .right-text {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-300%);
+    text-align: right;
+}
+.right-text .start {
+    font-size: 14px;
+}
+.right-text .numbers {
+    font-size: 12px;
+    line-height: 2.5;
+}
